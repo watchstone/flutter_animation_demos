@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FB832295E69B41A31E4220E /* Pods_FBMoviePlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3031846AC008CEEC1A100E /* Pods_FBMoviePlayer.framework */; };
+		CC61268A264EAE6800BACAA1 /* FBFlutterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC612689264EAE6800BACAA1 /* FBFlutterViewController.swift */; };
+		CCAA76C5264BDB7C00957345 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAA76C4264BDB7C00957345 /* AppDelegate.swift */; };
+		CCAA76C7264BDB7C00957345 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAA76C6264BDB7C00957345 /* SceneDelegate.swift */; };
+		CCAA76C9264BDB7C00957345 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAA76C8264BDB7C00957345 /* MainViewController.swift */; };
+		CCAA76CC264BDB7C00957345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCAA76CA264BDB7C00957345 /* Main.storyboard */; };
+		CCAA76CE264BDB7E00957345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCAA76CD264BDB7E00957345 /* Assets.xcassets */; };
+		CCAA76D1264BDB7E00957345 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCAA76CF264BDB7E00957345 /* LaunchScreen.storyboard */; };
+		CCAA76DE264BE69800957345 /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAA76DD264BE69800957345 /* ChannelViewController.swift */; };
+		CCAA76E1264BE6D300957345 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAA76E0264BE6D300957345 /* MineViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		635CFBC5CECF2DBADFFC8DC3 /* Pods-FBMoviePlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBMoviePlayer.debug.xcconfig"; path = "Target Support Files/Pods-FBMoviePlayer/Pods-FBMoviePlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		9F3031846AC008CEEC1A100E /* Pods_FBMoviePlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBMoviePlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC612689264EAE6800BACAA1 /* FBFlutterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBFlutterViewController.swift; sourceTree = "<group>"; };
+		CCAA76C1264BDB7C00957345 /* FBMoviePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBMoviePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCAA76C4264BDB7C00957345 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCAA76C6264BDB7C00957345 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CCAA76C8264BDB7C00957345 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CCAA76CB264BDB7C00957345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCAA76CD264BDB7E00957345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCAA76D0264BDB7E00957345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCAA76D2264BDB7E00957345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCAA76DD264BE69800957345 /* ChannelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelViewController.swift; sourceTree = "<group>"; };
+		CCAA76E0264BE6D300957345 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		F5CCA0831B175EFCBF2B7583 /* Pods-FBMoviePlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBMoviePlayer.release.xcconfig"; path = "Target Support Files/Pods-FBMoviePlayer/Pods-FBMoviePlayer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCAA76BE264BDB7C00957345 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FB832295E69B41A31E4220E /* Pods_FBMoviePlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		385AFD446109267613DAA9A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				635CFBC5CECF2DBADFFC8DC3 /* Pods-FBMoviePlayer.debug.xcconfig */,
+				F5CCA0831B175EFCBF2B7583 /* Pods-FBMoviePlayer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CCAA76B8264BDB7C00957345 = {
+			isa = PBXGroup;
+			children = (
+				CCAA76C3264BDB7C00957345 /* FBMoviePlayer */,
+				CCAA76C2264BDB7C00957345 /* Products */,
+				385AFD446109267613DAA9A2 /* Pods */,
+				E61F4858C3935025806D5C4F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CCAA76C2264BDB7C00957345 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCAA76C1264BDB7C00957345 /* FBMoviePlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCAA76C3264BDB7C00957345 /* FBMoviePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				CCAA76C4264BDB7C00957345 /* AppDelegate.swift */,
+				CCAA76C6264BDB7C00957345 /* SceneDelegate.swift */,
+				CCAA76C8264BDB7C00957345 /* MainViewController.swift */,
+				CCAA76DD264BE69800957345 /* ChannelViewController.swift */,
+				CCAA76E0264BE6D300957345 /* MineViewController.swift */,
+				CC612689264EAE6800BACAA1 /* FBFlutterViewController.swift */,
+				CCAA76CA264BDB7C00957345 /* Main.storyboard */,
+				CCAA76CD264BDB7E00957345 /* Assets.xcassets */,
+				CCAA76CF264BDB7E00957345 /* LaunchScreen.storyboard */,
+				CCAA76D2264BDB7E00957345 /* Info.plist */,
+			);
+			path = FBMoviePlayer;
+			sourceTree = "<group>";
+		};
+		E61F4858C3935025806D5C4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F3031846AC008CEEC1A100E /* Pods_FBMoviePlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCAA76C0264BDB7C00957345 /* FBMoviePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCAA76D5264BDB7E00957345 /* Build configuration list for PBXNativeTarget "FBMoviePlayer" */;
+			buildPhases = (
+				D6BF1DB49D01239AD76354CC /* [CP] Check Pods Manifest.lock */,
+				13373F2FE1549A831A22DB7B /* [CP-User] Run Flutter Build flutter_movie_player Script */,
+				CCAA76BD264BDB7C00957345 /* Sources */,
+				CCAA76BE264BDB7C00957345 /* Frameworks */,
+				CCAA76BF264BDB7C00957345 /* Resources */,
+				6C15F755D54B32450DCDB39D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBMoviePlayer;
+			productName = FBMoviePlayer;
+			productReference = CCAA76C1264BDB7C00957345 /* FBMoviePlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCAA76B9264BDB7C00957345 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CCAA76C0264BDB7C00957345 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = CCAA76BC264BDB7C00957345 /* Build configuration list for PBXProject "FBMoviePlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCAA76B8264BDB7C00957345;
+			productRefGroup = CCAA76C2264BDB7C00957345 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCAA76C0264BDB7C00957345 /* FBMoviePlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCAA76BF264BDB7C00957345 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCAA76D1264BDB7E00957345 /* LaunchScreen.storyboard in Resources */,
+				CCAA76CE264BDB7E00957345 /* Assets.xcassets in Resources */,
+				CCAA76CC264BDB7C00957345 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13373F2FE1549A831A22DB7B /* [CP-User] Run Flutter Build flutter_movie_player Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Run Flutter Build flutter_movie_player Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../../flutter_movie_player/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+		6C15F755D54B32450DCDB39D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FBMoviePlayer/Pods-FBMoviePlayer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FBMoviePlayer/Pods-FBMoviePlayer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FBMoviePlayer/Pods-FBMoviePlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6BF1DB49D01239AD76354CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FBMoviePlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCAA76BD264BDB7C00957345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCAA76C9264BDB7C00957345 /* MainViewController.swift in Sources */,
+				CCAA76C5264BDB7C00957345 /* AppDelegate.swift in Sources */,
+				CCAA76DE264BE69800957345 /* ChannelViewController.swift in Sources */,
+				CCAA76C7264BDB7C00957345 /* SceneDelegate.swift in Sources */,
+				CCAA76E1264BE6D300957345 /* MineViewController.swift in Sources */,
+				CC61268A264EAE6800BACAA1 /* FBFlutterViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CCAA76CA264BDB7C00957345 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCAA76CB264BDB7C00957345 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCAA76CF264BDB7E00957345 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCAA76D0264BDB7E00957345 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCAA76D3264BDB7E00957345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCAA76D4264BDB7E00957345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCAA76D6264BDB7E00957345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 635CFBC5CECF2DBADFFC8DC3 /* Pods-FBMoviePlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JU64P47UJK;
+				INFOPLIST_FILE = FBMoviePlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Zentertain.FBMoviePlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CCAA76D7264BDB7E00957345 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5CCA0831B175EFCBF2B7583 /* Pods-FBMoviePlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JU64P47UJK;
+				INFOPLIST_FILE = FBMoviePlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Zentertain.FBMoviePlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCAA76BC264BDB7C00957345 /* Build configuration list for PBXProject "FBMoviePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCAA76D3264BDB7E00957345 /* Debug */,
+				CCAA76D4264BDB7E00957345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCAA76D5264BDB7E00957345 /* Build configuration list for PBXNativeTarget "FBMoviePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCAA76D6264BDB7E00957345 /* Debug */,
+				CCAA76D7264BDB7E00957345 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCAA76B9264BDB7C00957345 /* Project object */;
+}
